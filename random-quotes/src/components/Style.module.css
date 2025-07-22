@@ -1,11 +1,13 @@
 .box {
-  max-width: 500px;
-  margin: 100px auto;
-  padding: 20px;
+  max-width: 90%;
+  width: 500px;
+  margin: 80px auto;
+  padding: 24px;
   border-radius: 12px;
   background: #f4f4f4;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
+  font-family: "Segoe UI", sans-serif;  
 }
 
 .quote {
@@ -24,8 +26,9 @@
 
 .text {
   font-size: 1.5rem;
-  color: #282828;
   margin-bottom: 10px;
+  line-height: 1.4;
+  color: black;
 }
 
 .author {
@@ -34,17 +37,38 @@
   color: #555;
 }
 
-.button {
-  padding: 10px 20px;
+button {
+  padding: 12px 20px;
   font-size: 1rem;
   background: #007bff;
   color: #fff;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition: all 0.1s ease-in;
+  transition: background 0.2s ease;
+  display: block;
+  margin: 0 auto;
 }
 
-.button:hover {
-  transform: scale(1.1);
+.copyButton {
+  padding: 10px 16px;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  background: #28a745;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Адаптація для мобільних */
+@media (max-width: 480px) {
+  .text {
+    font-size: 1.2rem;
+  }
+
+  .button {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
 }
