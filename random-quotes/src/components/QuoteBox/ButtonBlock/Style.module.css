@@ -1,0 +1,33 @@
+
+button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.copyButton {
+  padding: 10px 16px;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  background: #28a745;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Адаптація для мобільних */
+@media (max-width: 480px) {
+
+  .button {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
+}

@@ -1,0 +1,34 @@
+
+.quote {
+  transition: all 0.2s ease-out;
+}
+
+.hideQuote {
+  transform: scale(0.5);
+  opacity: 0;
+}
+
+.showQuote {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.text {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  color: black;
+}
+
+.author {
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Адаптація для мобільних */
+@media (max-width: 480px) {
+  .text {
+    font-size: 1.2rem;
+  }
+}

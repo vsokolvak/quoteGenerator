@@ -1,7 +1,7 @@
 import './App.css'
-import QuoteBox from './components/QuoteBox'
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import QuoteBox from './components/QuoteBox/QuoteBox';
 
 function App() {
 
