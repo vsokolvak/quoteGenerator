@@ -4,6 +4,14 @@
   cursor: pointer;
 }
 
+.quote:hover {
+  scale: 1.01;
+}
+
+.copied {
+  text-shadow: 1px 1px greenyellow;
+}
+
 .hideQuote {
   transform: scale(0.5);
   opacity: 0;
